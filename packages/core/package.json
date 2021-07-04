@@ -1,6 +1,6 @@
 {
   "name": "@coolspy-cli/core",
-  "version": "1.0.2",
+  "version": "1.0.0",
   "description": "> TODO: description",
   "author": "起点 <coolspy@qq.com>",
   "homepage": "",
@@ -20,7 +20,7 @@
     "test": "echo \"run test from core\""
   },
   "dependencies": {
-    "@coolspy-cli/utils": "^1.0.2"
+    "@coolspy-cli/utils": "^1.0.0"
   },
   "devDependencies": {
     "lodash": "^4.17.21"
