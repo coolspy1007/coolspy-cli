@@ -13,17 +13,18 @@
   "files": [
     "lib"
   ],
+  "bin": {
+    "coolspy-cli": "lib/index.js"
+  },
   "publishConfig": {
+    "registry": "https://registry.npmjs.org/",
     "access": "public"
   },
   "scripts": {
     "test": "echo \"run test from core\""
   },
   "dependencies": {
-    "@coolspy-cli/utils": "^1.0.0"
-  },
-  "devDependencies": {
-    "lodash": "^4.17.21"
+    "@coolspy-cli/utils": "file:../utils"
   },
   "gitHead": "cf29a08575f3af67791f1ff37bf0b4326e9d4e96"
 }
